@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 export default function Amenities() {
   return (
-    <section className="py-24 lg:py-40 bg-[#141414] text-white overflow-hidden">
+    <section id="amenities" className="py-24 lg:py-40 bg-[#141414] text-white overflow-hidden">
       <div className="max-w-[1600px] mx-auto px-4 sm:px-6 md:px-12">
 
         {/* Header */}

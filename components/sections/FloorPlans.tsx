@@ -49,7 +49,7 @@ export default function FloorPlans() {
     floorPlans.find((plan) => plan.id === activeTab) || floorPlans[1];
 
   return (
-    <section className="py-24 lg:py-40 bg-[#E5E4DE] text-[#141414] overflow-hidden">
+    <section id="floor-plans" className="py-24 lg:py-40 bg-[#E5E4DE] text-[#141414] overflow-hidden">
       <div className="max-w-[1600px] mx-auto px-4 sm:px-6 md:px-12">
         
         {/* Header */}

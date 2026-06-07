@@ -66,7 +66,7 @@ export default function Location() {
   const activeData = locationData.find(data => data.category === activeTab);
 
   return (
-    <section className="py-24 lg:py-40 bg-ckpc-greige text-[#141414] overflow-hidden">
+    <section id="location" className="py-24 lg:py-40 bg-ckpc-greige text-[#141414] overflow-hidden">
       <div className="max-w-[1600px] mx-auto px-4 sm:px-6 md:px-12">
         
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-y-16 lg:gap-x-16 relative">

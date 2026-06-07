@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 export default function Lifestyle() {
   return (
-    <section className="py-20 lg:py-40 bg-[#E5E4DE] text-[#141414] overflow-hidden">
+    <section id="lifestyle" className="py-20 lg:py-40 bg-[#E5E4DE] text-[#141414] overflow-hidden">
       <div className="max-w-[1600px] mx-auto px-4 sm:px-6 md:px-12">
         
         {/* Asymmetrical 12-Column Grid */}
@@ -72,7 +72,7 @@ export default function Lifestyle() {
           >
             <div className="relative w-full aspect-[4/3] lg:aspect-[16/9] bg-zinc-300 overflow-hidden">
               <Image
-                src="/Club-House_hires_gallery.jpg" // Replace with your high-res living room shot
+                src="/club-house-hires-gallery.jpg" // Replace with your high-res living room shot
                 alt="Smart Home Integration"
                 fill
                 sizes="(max-width: 1024px) 100vw, 60vw"
