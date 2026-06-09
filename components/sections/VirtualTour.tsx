@@ -15,7 +15,7 @@ export default function VirtualTour() {
         </div>
 
         {/* 3D Map Embed Container */}
-        <div className="relative w-full h-[70vh] min-h-[600px] rounded-3xl overflow-hidden shadow-2xl border border-zinc-200 bg-zinc-100 flex items-center justify-center">
+        <div className="relative w-full h-[70vh] min-h-[600px] overflow-hidden shadow-2xl border border-zinc-200 bg-zinc-100 flex items-center justify-center">
           
           {/* This iframe loads the Archvi tour directly as requested */}
           <iframe

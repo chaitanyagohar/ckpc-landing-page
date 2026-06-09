@@ -16,6 +16,10 @@ const config: Config = {
           charcoal: "#141414", // The exact grey of the "ckpc" text
         }
       },
+      fontFamily: {
+      'nunito': ['var(--font-nunito)', 'sans-serif'],
+      'roboto': ['var(--font-roboto)', 'sans-serif'],
+      },
     },
   },
   plugins: [],
