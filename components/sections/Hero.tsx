@@ -50,7 +50,8 @@ export default function Hero() {
               alt="CKPC Logo"
               width={200}
               height={100}
-              style={{ width: "auto", height: "auto" }} // Add this
+              style={{ width: "auto", height: "auto" }} 
+              priority
             />
           </motion.div>
 

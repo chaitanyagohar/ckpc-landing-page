@@ -80,7 +80,7 @@ export default function Lifestyle() {
           src="/hero.jpg" 
           alt="Winds of Change Estate" 
           fill 
-          className="object-fit"
+          className="object-cover"
           priority
         />
  <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-transparent" />
@@ -141,7 +141,7 @@ export default function Lifestyle() {
           </div>
           
           <div className="w-full md:w-[45%] h-[350px] md:h-[500px] relative bg-zinc-100 overflow-hidden group">
-            <Image src="/club-house-hires-gallery.jpg" alt="Yelahanka Location" fill className="object-cover " />
+            <Image src="/club-house-hires-gallery.jpg" alt="Yelahanka Location" fill className="object-cover priority" />
           </div>
         </div>
 
